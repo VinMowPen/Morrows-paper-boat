@@ -100,6 +100,21 @@ nav ul li a:hover {
     justify-content: left;
 }
 
+#gallery {
+    background-image: url('./Resources/Ocean_4.jpg');
+    justify-content: right;
+}
+
+#blog {
+    background-image: url('./Resources/Ocean_3.jpg');
+    justify-content: left;
+}
+
+#contact {
+    background-image: url('./Resources/Ocean_3.jpg');
+    justify-content: right;
+}
+
 footer {
     color: darkslateblue;
 }
