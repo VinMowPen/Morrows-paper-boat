@@ -87,16 +87,16 @@ nav ul li a:hover {
 }
 
 #hero {
-    background-image: url('/Resources/Ocean_1.jpg');
+    background-image: url('./Resources/Ocean_1.jpg');
 }
 
 #about {
-    background-image: url('/Resources/Ocean_2.jpg');
+    background-image: url('./Resources/Ocean_2.jpg');
     justify-content: right;
 }
 
 #services {
-    background-image: url('/Resources/Ocean_3.jpg');
+    background-image: url('./Resources/Ocean_3.jpg');
     justify-content: left;
 }
 
