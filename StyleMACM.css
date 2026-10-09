@@ -1,0 +1,96 @@
+*{ box-sizing: border-box; margin: 0; padding: 0; }
+
+h1 {
+	max-width: 100%;
+	max-height: 200px;
+	text-shadow: 4px 2px #62a9e4;
+	font-family: Helvetica, sans-serif;
+	font-size: 90px
+}
+
+p{
+	margin: 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+h2{
+	letter-spacing: 3px;
+	font-size: 30px;
+
+}
+
+ol{
+	font-size: 15px;
+	font-family: Helvetica, sans-serif;
+}
+
+.b {
+	min-height: 100dvh;
+	justify-content: center;
+	background-image: url('./imagencanvafondo1MACM.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+	text-align:center; 
+	padding-bottom: center; 
+}
+
+.content {
+	background: rgb(254 255 255 / 0.85);
+	max-width: 50%;
+	border: 1px solid #1a1f35;
+	border-radius: 12px;
+	color: darkslateblue;
+	box-shadow: 0 10px 10px #1a1f35;
+	padding: 30px;
+}
+
+header {
+	background: rgb(98 169 228/ 0.53);
+	color: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 700;
+	text-align: right;
+	position: fixed;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	margin: 0;
+	z-index: 1000;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav ul li {
+	display: inline; 
+	margin: 0 15px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding:0 20px;
+	border-radius: 5px;
+	transition:background-color 0.5s ease;
+}
+
+nav ul li a:hover{
+	background-color:#555;
+	text-decoration: none;
+}
