@@ -95,6 +95,12 @@ main section div textarea {
     resize: none;
     box-sizing: border-box;
 }
+main section div button {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 15px;
+}
 
 nav ul li a:hover{
 	background-color:#555;
