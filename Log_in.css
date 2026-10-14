@@ -52,6 +52,7 @@ ol{
 	color: darkslateblue;
 	box-shadow: 0 10px 10px #1a1f35;
 	padding: 30px;
+	justify-contet: center;
 }
 
 header {
