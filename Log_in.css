@@ -97,7 +97,7 @@ main section div textarea {
 }
 main section div button {
 	display: flex;
-	justify-salf: center;
+	justify-self: center;
 	gap: 10px;
 	margin-top: 15px;
 }
