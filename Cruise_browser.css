@@ -115,3 +115,11 @@ main {
     margin-button: 20px;
 }
     
+#filtros label {
+    display:block;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-button: 15px;
+}
+    
