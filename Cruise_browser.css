@@ -45,7 +45,6 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-/* ===== CONFIGURACIÓN GENERAL ===== */
 * {
     margin: 0;
     padding: 0;
@@ -70,7 +69,6 @@ main {
     align-items: start;
 }
 
-/* ===== BARRA DE BÚSQUEDA ===== */
 #buscador {
     grid-area: buscador;
     width: 100%;
@@ -115,7 +113,6 @@ main {
     background-color: #2388d1;
 }
 
-/* ===== RECOMENDACIONES: IZQUIERDA ===== */
 #recom {
     grid-area: recom;
     background-color: #102b46;
@@ -144,7 +141,6 @@ main {
     margin-bottom: 30px;
 }
 
-/* ===== RESULTADOS: CENTRO ===== */
 #results {
     grid-area: results;
     min-width: 0;
@@ -156,7 +152,6 @@ main {
     gap: 12px;
 }
 
-/* Imágenes de los cruceros */
 #results img {
     width: 100%;
     height: 180px;
@@ -166,14 +161,12 @@ main {
     grid-column: auto;
 }
 
-/* Títulos de los cruceros */
 #results h2 {
     font-size: 20px;
     color: #69c6ff;
     margin: 8px 0;
 }
 
-/* Información de cada crucero */
 #results p {
     color: #d5e2ef;
     font-size: 14px;
@@ -181,7 +174,6 @@ main {
     margin-bottom: 5px;
 }
 
-/* ===== FILTROS: DERECHA ===== */
 #filtros {
     grid-area: filtros;
     background-color: #102b46;
@@ -224,7 +216,6 @@ main {
     color: #a8bacb;
 }
 
-/* Botones de tipo de viaje */
 #filtros button {
     width: 100%;
     padding: 11px;
@@ -242,7 +233,6 @@ main {
     background-color: #2388d1;
 }
 
-/* ===== PIE DE PÁGINA ===== */
 footer {
     padding: 20px;
     margin-top: 20px;
@@ -253,7 +243,6 @@ footer {
     font-size: 13px;
 }
 
-/* ===== TABLETAS ===== */
 @media (max-width: 1000px) {
     main {
         grid-template-columns: 200px minmax(0, 1fr);
@@ -268,7 +257,6 @@ footer {
     }
 }
 
-/* ===== CELULARES ===== */
 @media (max-width: 650px) {
     main {
         grid-template-columns: 1fr;
