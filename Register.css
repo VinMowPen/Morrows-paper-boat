@@ -116,3 +116,17 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+main section div textarea {
+    width: 300px;
+    height: 30px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+main section div button {
+	display: flex;
+	justify-self: center;
+	gap: 10px;
+	margin-top: 15px;
+}
+
