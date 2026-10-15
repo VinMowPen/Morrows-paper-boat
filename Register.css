@@ -11,6 +11,10 @@
 	justify-contet: center;
 }
 
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 header {
     background: rgb(12 15 26 / 0.53);
     color: #fff;
