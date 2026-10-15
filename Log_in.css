@@ -55,6 +55,10 @@ ol{
 	justify-contet: center;
 }
 
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 header {
 	background: rgb(12 15 26 / 0.53);
 	color: #fff;
@@ -90,6 +94,12 @@ nav ul li a {
 	border-radius: 5px;
 	transition:background-color 0.5s ease;
 }
+
+nav ul li a:hover{
+	background-color:#555;
+	text-decoration: none;
+}
+
 main section div textarea {
     width: 300px;
     height: 30px;
@@ -101,11 +111,6 @@ main section div button {
 	justify-self: center;
 	gap: 10px;
 	margin-top: 15px;
-}
-
-nav ul li a:hover{
-	background-color:#555;
-	text-decoration: none;
 }
 
 .button {
