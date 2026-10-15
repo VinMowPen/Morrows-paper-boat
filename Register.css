@@ -17,10 +17,6 @@ p{
 	text-transform: uppercase;
 }
 
-ol{
-	font-size: 15px;
-	font-family: Helvetica, sans-serif;
-}
 .content {
 	background: rgb(254 255 255 / 0.85);
 	max-width: 50%;
