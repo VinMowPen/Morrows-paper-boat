@@ -1,5 +1,11 @@
 *{ box-sizing: border-box; margin: 0; padding: 0; font-family: Helvetica, sans-serif; }
 
+body {
+    background-color: #071525;
+    color: white;
+    min-height: 100dvh;
+}
+
 header {
     background: rgb(12 15 26 / 0.53);
     color: #fff;
@@ -13,9 +19,7 @@ header {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
     display: flex;
-    margin: 0;
     z-index: 1000;
     justify-content: flex-end;
     align-items: center;
@@ -39,12 +43,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
     text-decoration: none;
-}
-body {
-    font-family: Helvetica, sans-serif;
-    background-color: #071525;
-    color: white;
-    min-height: 100vh;
 }
 
 main {
@@ -101,6 +99,3 @@ main {
 #buscador button:hover {
     background-color: #2388d1;
 }
-
-
-
