@@ -100,12 +100,18 @@ main {
     background-color: #2388d1;
 }
 
-#filtros{
+#filtros {
     grind-area:filtros;
     backgrond-color: #5f71ab
-    border: 1px solid #5f71ab;
+    border: 1px solid filtros{;
     border-radius: 12px;
     padding: 20px;
     color: white;
 ]
+
+#filtros h1 {
+    font-size: 24px;
+    color: #ffff;
+    margin-button: 20px;
+}
     
