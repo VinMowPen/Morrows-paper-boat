@@ -47,5 +47,43 @@ nav ul li a:hover {
     padding: 15px 0;
 }
 
+.busqr form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#s {
+    width: 100%;
+    padding: 13px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #14263b;
+    border: 1px solid #354a63;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+
+#s:focus {
+    border-color: #3296e8;
+}
+
+#buscador button {
+    padding: 13px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: #1769aa;
+    border: 1px solid #1769aa;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buscador button:hover {
+    background-color: #2388d1;
+}
+
 
 
