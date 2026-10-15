@@ -1,36 +1,4 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-h1 {
-	max-width: 100%;
-	max-height: 200px;
-	text-shadow: 4px 2px #62a9e4;
-	font-family: Helvetica, sans-serif;
-	font-size: 90px
-}
-
-p{
-	margin: 10px;
-	font-family: Helvetica, sans-serif;
-	font-size: 15px;
-	text-align: center;
-	text-decoration: underline;
-	text-transform: uppercase;
-}
-
-.content {
-	background: rgb(254 255 255 / 0.85);
-	max-width: 50%;
-	border: 1px solid #1a1f35;
-	border-radius: 12px;
-	color: darkslateblue;
-	box-shadow: 0 10px 10px #1a1f35;
-	padding: 30px;
-	justify-contet: center;
-}
-
-body {
-    font-family: Helvetica, sans-serif;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Helvetica, sans-serif;}
 
 header {
     background: rgb(12 15 26 / 0.53);
@@ -45,9 +13,7 @@ header {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
     display: flex;
-    margin: 0;
     z-index: 1000;
     justify-content: flex-end;
     align-items: center;
@@ -89,34 +55,62 @@ nav ul li a:hover {
 	padding-bottom: center; 
 }
 
+.content {
+	display: flex;
+	background: rgb(254 255 255 / 0.85);
+	max-width: 50%;
+	border: 1px solid #1a1f35;
+	border-radius: 12px;
+	color: darkslateblue;
+	box-shadow: 0 10px 10px #1a1f35;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	max-width: 100%;
+	max-height: 200px;
+	text-shadow: 4px 2px #62a9e4;
+	font-family: Helvetica, sans-serif;
+	font-size: 90px
+}
+
+p{
+	margin: 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+main section div textarea {
+	display: block;
+	margin: 0 auto;
+    width: 300px;
+    height: 30px;
+    resize: none;
+}
+
+main section div button {
+	align-self: center;
+	gap: 10px;
+	margin-top: 15px;
+	padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .button {
 	background-color: #1877F2;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
 }
 .button1 {
 	 background-color: white;
     color: #444;
     border: 1px solid #ccc;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
 }
-
-main section div textarea {
-    width: 300px;
-    height: 30px;
-    resize: none;
-    box-sizing: border-box;
-}
-
-main section div button {
-	display: flex;
-	justify-self: center;
-	gap: 10px;
-	margin-top: 15px;
-}
-
