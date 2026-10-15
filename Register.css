@@ -1,5 +1,32 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+h1 {
+	max-width: 100%;
+	max-height: 200px;
+	text-shadow: 4px 2px #62a9e4;
+	font-family: Helvetica, sans-serif;
+	font-size: 90px
+}
+
+p{
+	margin: 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+h2{
+	letter-spacing: 3px;
+	font-size: 30px;
+
+}
+
+ol{
+	font-size: 15px;
+	font-family: Helvetica, sans-serif;
+}
 .content {
 	background: rgb(254 255 255 / 0.85);
 	max-width: 50%;
@@ -71,3 +98,21 @@ nav ul li a:hover {
 	text-align:center; 
 	padding-bottom: center; 
 }
+
+.button {
+	background-color: #1877F2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button1 {
+	 background-color: white;
+    color: #444;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
