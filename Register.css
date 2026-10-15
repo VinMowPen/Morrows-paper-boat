@@ -11,6 +11,17 @@
 	justify-contet: center;
 }
 
+header {
+    background: rgb(12 15 26 / 0.53);
+    color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 700;
+    text-align: right;
+    position: fixed;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
