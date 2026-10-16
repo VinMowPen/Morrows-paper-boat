@@ -101,43 +101,43 @@ main {
 }
 
 #filtros {
-    grind-area:filtros;
-    backgrond-color: #5f71ab;
-    border: 1px solid;
+    grid-area: filtros;
+    background-color: #102b46;
+    border: 1px solid #244562;
     border-radius: 12px;
     padding: 20px;
     color: white;
-]
+}
 
 #filtros h1 {
     font-size: 24px;
-    color: #ffff;
-    margin-button: 20px;
+    color: #69c6ff;
+    margin-bottom: 20px;
 }
-    
+
 #filtros label {
-    display:block;
+    display: block;
     color: white;
     font-size: 15px;
     margin-top: 15px;
-    margin-button: 15px;
+    margin-bottom: 7px;
 }
-    
-#filtros input{
-     width: 100%;
-     padding: 20px;
-     color: white;
-     backgrond-color: #5f71ab;
-     border: 1px solid #5f71ab;
-     border-radius: 7px;
-     outline: none;
-     font-size: 14px;
+
+#filtros input {
+    width: 100%;
+    padding: 11px;
+    color: white;
+    background-color: #071525;
+    border: 1px solid #3b5873;
+    border-radius: 7px;
+    outline: none;
+    font-size: 14px;
 }
 
 #filtros input:focus {
-    border-color: #5f71ab;
+    border-color: #3296e8;
 }
 
 #filtros input::placeholder {
-    color: #5f71ab;
+    color: #a8bacb;
 }
