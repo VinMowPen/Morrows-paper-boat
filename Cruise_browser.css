@@ -102,7 +102,7 @@ main {
 
 #filtros {
     grind-area:filtros;
-    backgrond-color: #5f71ab
+    backgrond-color: #5f71ab;
     border: 1px solid;
     border-radius: 12px;
     padding: 20px;
@@ -123,13 +123,21 @@ main {
     margin-button: 15px;
 }
     
-#filtros imput{
+#filtros input{
      width: 100%;
      padding: 20px;
      color: white;
-     backgrond-color: #5f71ab
+     backgrond-color: #5f71ab;
      border: 1px solid #5f71ab;
      border-radius: 7px;
      outline: none;
      font-size: 14px;
+}
+
+#filtros input:focus {
+    border-color: #5f71ab;
+}
+
+#filtros input::placeholder {
+    color: #5f71ab;
 }
