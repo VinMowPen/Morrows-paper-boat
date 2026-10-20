@@ -8,7 +8,7 @@ body {
 
 header {
     background: rgb(12 15 26 / 0.53);
-    color: #fff;
+    color: #ffffff;
     top: 0;
     left: 0;
     width: 100%;
@@ -82,7 +82,7 @@ main {
 }
 
 #s:focus {
-    border-color: #3296e8;
+    border-color: #ffffff;
 }
 
 #buscador button {
