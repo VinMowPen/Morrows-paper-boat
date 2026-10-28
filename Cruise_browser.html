@@ -1,103 +1,104 @@
-<DOCTYPE html>
-	<html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport"content="width=device-width, initial-scale=1.0">
-		<title>Cruises</title>
-		<link rel="stylesheet" href="Cruise_browser.css">
-	</head>
-	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="./index.html">Inicio</a></li>
-					<li><a href="./index.html#gallery">Galería</a></li>
-					<li><a href="./index.html#blog">Blog</a></li>
-					<li><a href="./index.html#contact">Contactanos</a></li>
-					<li><a href="./Log_in.html">Iniciar sesión</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<section id="buscador" class="busq">
-				<div class="busqr">
-					<form action="/buscar" method="get">
-						<input type="search" id="s" name="q" placeholder="Buscar..." required>
-  						<button type="submit">Ok</button>
-					</form>
-				</div>
-			</section>
-			<section id="recom" class="info-simple">
-				<div class="info-content">
-					<h1>Una semana</h1>
-					<h3>Al caribe desde</h3>
-					<h3>$3,500</h3>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruises</title>
+    <link rel="stylesheet" href="Cruise_browser.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./index.html#gallery">Galería</a></li>
+            <li><a href="./index.html#blog">Blog</a></li>
+            <li><a href="./index.html#contact">Contactanos</a></li>
+            <li><a href="./Log_in.html">Iniciar sesión</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="buscador" class="busq">
+        <div class="busqr">
+            <form action="/buscar" method="get">
+                <input type="search" id="s" name="q" placeholder="Buscar..." required>
+                <button type="submit">Ok</button>
+            </form>
+        </div>
+    </section>
+    <section id="recom" class="info-simple">
+        <div class="info-content">
+            <h1>Una semana</h1>
+            <h3>Al caribe desde</h3>
+            <h3>$3,500</h3>
 
-					<h1>3 dias</h1>
-					<h3>En un parque acuatico desde</h3>
-					<h3>$1,500</h3>
-				</div>
-			</section>
-			<section id="results" class="info-general">
-				<div class="info-content">
-					<img src="">
-					<h2>Crucero 1: </h2>
-					<p>-Destino</p>
-					<p>-Calendario de viaje</p>
-					<p>-Precio recomendado</p>
+            <h1>3 dias</h1>
+            <h3>En un parque acuatico desde</h3>
+            <h3>$1,500</h3>
+        </div>
+    </section>
+    <section id="results" class="info-general">
+        <div class="info-content">
+            <img src="">
+            <h2>Crucero 1: </h2>
+            <p>-Destino</p>
+            <p>-Calendario de viaje</p>
+            <p>-Precio recomendado</p>
 
-					<img src="">
-					<h2>Crucero 2: </h2>
-					<p>-Destino</p>
-					<p>-Calendario de viaje</p>
-					<p>-Precio recomendado</p>
-				</div>
-			</section>
-			<section id="filtros" class="select">
-				<h1>Filtros</h1>
-				<button>Express</button> <br>
-				<button>Vacacional</button>
-				
-				<br>
-				<label for="duracion">Duracion:</label> <br>
-				<input list="duracion" id="tiempo" name="tiempo">
+            <img src="">
+            <h2>Crucero 2: </h2>
+            <p>-Destino</p>
+            <p>-Calendario de viaje</p>
+            <p>-Precio recomendado</p>
+        </div>
+    </section>
+    <section id="filtros" class="select">
+        <h1>Filtros</h1>
+        <button>Express</button>
+        <br>
+        <button>Vacacional</button>
 
-				<datalist id="duracion">
- 	 				<option value="Una noche">
- 	 				<option value="Tres noches">
-  					<option value="Una semana">
-  					<option value="Varias semanas">
-  					
-				</datalist>
+        <br>
+        <label for="duracion">Duracion:</label> <br>
+        <input list="duracion" id="tiempo" name="tiempo">
 
-				<br>
-				<label for="precio">Costo:</label> <br>
-				<input list="precio" id="costo" name="costo">
+        <datalist id="duracion">
+            <option value="Una noche">
+            <option value="Tres noches">
+            <option value="Una semana">
+            <option value="Varias semanas">
 
-				<datalist id="precio">
- 	 				<option value="Barato">
- 	 				<option value="Recomendado">
-  					<option value="Caro">
-  					<option value="De lujo">
-  					
-				</datalist>
+        </datalist>
 
-				<br>
-				<label for="destino">Destino:</label> <br>
-				<input list="destino" id="locacion" name="locacion">
+        <br>
+        <label for="precio">Costo:</label> <br>
+        <input list="precio" id="costo" name="costo">
 
-				<datalist id="destino">
- 	 				<option value="Miami">
- 	 				<option value="Las bahamas">
-  					<option value="El atlantico">
-  					<option value="Dubai">
-  					
-				</datalist>
-			</section>
+        <datalist id="precio">
+            <option value="Barato">
+            <option value="Recomendado">
+            <option value="Caro">
+            <option value="De lujo">
 
-		</main>
-		<footer>
-    		<p>&copy; 2026 Morrow's paper boat. All rights reserved.</p>
-		</footer>
-	</body>
-	</html>
+        </datalist>
+
+        <br>
+        <label for="destino">Destino:</label> <br>
+        <input list="destino" id="locacion" name="locacion">
+
+        <datalist id="destino">
+            <option value="Miami">
+            <option value="Las bahamas">
+            <option value="El atlantico">
+            <option value="Dubai">
+
+        </datalist>
+    </section>
+
+</main>
+<footer>
+    <p>&copy; 2026 Morrow's paper boat. All rights reserved.</p>
+</footer>
+</body>
+</html>
