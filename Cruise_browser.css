@@ -1,32 +1,40 @@
-*{ box-sizing: border-box; margin: 0; padding: 0; font-family: Helvetica, sans-serif; }
-
-body {
-    background-color: #071525;
-    color: white;
-    min-height: 100dvh;
+:root {
+    --color-bg: #071525;
+    --color-surface: #5f71ab;
+    --header-height: 4rem;
 }
 
-header {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.site-header {
     background: rgb(12 15 26 / 0.53);
-    color: #ffffff;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 700;
-    text-align: right;
     position: fixed;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    z-index: 1000;
     justify-content: flex-end;
     align-items: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
@@ -42,19 +50,22 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #555;
-    text-decoration: none;
 }
 
 main {
+    min-height: 100dvh;
     display: grid;
-    grid-template-columns: 220px minmax(0, 1fr) 260px;
+    padding: calc(var(--header-height) + 20px) 20px 20px;
+    grid-template-columns: 1.5fr minmax(0, 5fr) 2fr;
+    grid-template-rows: auto 4fr;
     grid-template-areas:
         "buscador buscador buscador"
         "recom results filtros";
     gap: 20px;
-    padding: 20px;
     align-items: start;
+    background: var(--color-bg) url("./Resources/Coral_Reef.PNG") center / cover no-repeat;
 }
+
 
 #buscador {
     grid-area: buscador;
@@ -82,7 +93,7 @@ main {
 }
 
 #s:focus {
-    border-color: #ffffff;
+    border-color: #95959e;
 }
 
 #buscador button {
@@ -127,7 +138,7 @@ main {
     width: 100%;
     padding: 11px;
     color: white;
-    background-color: #071525;
+    background-color: var(--color-bg);
     border: 1px solid #3b5873;
     border-radius: 7px;
     outline: none;
@@ -140,4 +151,13 @@ main {
 
 #filtros input::placeholder {
     color: #a8bacb;
+}
+
+#results {
+    grid-area: results;
+    background-color: #5f71ab;
+    border: 1px solid #5f71ab;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
 }
